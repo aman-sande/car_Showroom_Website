@@ -1,0 +1,27 @@
+[
+    {
+        "imageUrl":"assets/image/car-1.png",
+        "name":"mercedes benz",
+        "price":"$55,807"
+    },
+    {
+        "imageUrl":"assets/image/car-2.png",
+        "name":"MG Hector",
+        "price":"$55,000"
+    },
+    {
+        "imageUrl":"assets/image/car-3.png",
+        "name":"i20",
+        "price":"$53,000"
+    },
+    {
+        "imageUrl":"assets/image/car-4.png",
+        "name":"Audi R8",
+        "price":"$59,000"
+    },
+    {
+        "imageUrl":"assets/image/car-5.png",
+        "name":"Ford",
+        "price":"$54,000"
+    }
+]

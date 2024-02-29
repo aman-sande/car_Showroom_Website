@@ -190,13 +190,13 @@
 
     <div class="swiper review-slider">
 
-        <div class="swiper-wrapper">
+        <div *ngFor="let client of clients"class="swiper-wrapper">
 
-            <div class="swiper-slide box">
-                <img [src]="pic1" alt="">
+            <div  class="swiper-slide box">
+                <img [src]="client.image" alt="">
                 <div class="content">
                     
-                    <h3>Krushnat Pokale</h3>
+                    <h3>{{client.name}}</h3>
                     <div class="stars">
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
@@ -206,42 +206,9 @@
                     </div>
                 </div>
             </div>
-
-            <div class="swiper-slide box">
-                <img [src]="pic2" alt="">
-                <div class="content">
-                    
-                    <h3>Suraj Tomake</h3>
-                    <div class="stars">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star-half-alt"></i>
-                    </div>
-                </div>
-            </div>
-
-            <div class="swiper-slide box">
-                <img [src]="pic3" alt="">
-                <div class="content">
-                   
-                    <h3>Omkar Yadav</h3>
-                    <div class="stars">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star-half-alt"></i>
-                    </div>
-                </div>
-            </div>
-
-        </div>
     </div>
-
-        
-
+    </div>
+           
 </section>
 
 <section class="contact" id="contact1">
@@ -294,7 +261,7 @@
 
         <div class="box">
             <h3>GitHub</h3>
-            <a href="#"> <i class="fab fa-github"></i>Car_Showroom_Website</a>
+            <a href="https://github.com/aman-sande/car_Showroom_Website"> <i class="fab fa-github"></i>Car_Showroom_Website</a>
             
         </div>
 
